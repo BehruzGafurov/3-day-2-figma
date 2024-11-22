@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  background-color: darkgrey;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+}
+
+.grid-item {
+  border-radius: 10px;
+  border: 0;
+}
+
+.item-1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 6;
+  width: 256px;
+  height: 415px;
+  background-color: #f9eee2;
+
+  .quick {
+    color: rgba(117, 81, 220, 1);
+    padding-top: 50px;
+    text-align: start;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .text {
+    width: 192px;
+    padding-left: 32px;
+    padding-top: 50px;
+    text-align: start;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #121212;
+  }
+
+  .img {
+    padding-left: 32px;
+    padding-top: 20px;
+    width: 190px;
+  }
+}
+
+.item-2 {
+  align-items: center;
+  width: 256px;
+  grid-column: 1 / 4;
+  grid-row: 6 / 13;
+  background-color: #ffcc6a;
+
+  .lopx {
+    color: #ffcc6a;
+  }
+
+  .text {
+    padding-left: 24px;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #121212;
+  }
+  .img {
+    padding-top: 56px;
+    width: 219px;
+    padding-left: 24px;
+  }
+}
+
+.item-3 {
+  width: 544px;
+  grid-column: 4 /10;
+  grid-row: 1 / 5;
+  background-color: #7551dc;
+
+  .text {
+    text-align: center;
+    font-family: DM Sans;
+    font-family: DM Sans;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 58px;
+    color: #ffffff;
+  }
+  .img {
+    padding-left: 176px;
+    text-align: center;
+    width: 161px;
+  }
+  .Over {
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+  }
+}
+
+.item-4 {
+  width: 256px;
+  grid-column: 10 / 13;
+  grid-row: 1 / 9;
+  background-color: #dbd1fc;
+  overflow: hidden;
+
+  .text {
+    width: 192px;
+    text-align: start;
+    padding-left: 32px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 36px;
+    color: #121212;
+  }
+
+  .Over {
+    padding-left: 32px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #121212;
+  }
+  .img {
+    height: 318px;
+    padding-top: 24px;
+    padding-left: 32px;
+  }
+}
+
+.item-5 {
+  width: 256px;
+  height: 247px;
+  grid-column: 4 / 7;
+  grid-row: 5 / 9;
+  background-color: #ffffff;
+
+  .img {
+    padding-top: 24px;
+    width: 250px;
+  }
+  .text {
+    padding-left: 24px;
+    text-align: start;
+    width: 224px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #121212;
+  }
+}
+
+.item-6 {
+  width: 256px;
+  height: 247px;
+  grid-column: 7 / 10;
+  grid-row: 5 / 9;
+  background-color: #ffcc6a;
+  background-image: url("./images/august.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  .text {
+    padding-left: 24px;
+    text-align: start;
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #121212;
+  }
+  .img {
+    width: 208px;
+    height: 150px;
+  }
+}
+
+.item-7 {
+  text-align: center;
+  width: 256px;
+  grid-column: 4 / 7;
+  grid-row: 9 / 13;
+  background-color: #ffffff;
+
+  .number {
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 58px;
+    font-size: 48px;
+    color: #121212;
+  }
+
+  .objatc {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .img {
+    width: 178px;
+    padding-bottom: 24px;
+  }
+}
+
+.bottom {
+  display: flex;
+}
+
+.item-8 {
+  grid-column: 7 / 13;
+  grid-row: 9 / 13;
+  background-color: #7551dc;
+
+  .text {
+    padding-left: 11px;
+    padding-top: 40px;
+    width: 257px;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #ffffff;
+  }
+
+  .img {
+    padding-top: 23px;
+    padding-left: 24px;
+    width: 227px;
+    height: 200px;
+  }
+}
